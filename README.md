@@ -15,6 +15,6 @@ In App Gateway set a path ```/app/*``` pointing to the Apache server on the pool
 ## Default route
 
 - Configure the Application Gateway with the default backend pool pointing to the Apache server.
-- Do not configure a path
+- Do not configure a path based route
 
 > **Note:** Under this configuration all requests arriving at the AppGw with that do not have a match in the paths will be routed to the root site (http://host) of the Apache server defied in the backed pool.
