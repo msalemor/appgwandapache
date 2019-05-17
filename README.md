@@ -4,7 +4,7 @@
 
 ## Path based route
 
-Under the root Directory (```/var/www/html```) create a folder (```/var/www/html/app```). You should end up with the following URIs:
+Under the root Apache directory (usually ```/var/www/html```) create a folder (```/var/www/html/app```). You should end up with the following URIs:
 
 - Root site: http://host
 - App Site: http://host/app
