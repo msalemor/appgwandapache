@@ -7,8 +7,7 @@
 - Under the root Apache directory (usually ```/var/www/html```) create a folder (```/var/www/html/app```). You should end up with the following URIs:
   - Root site: http://host
   - App Site: http://host/app
-
-In App Gateway set a path ```/app/*``` pointing to the Apache server on the pool.
+- In App Gateway set a path ```/app/*``` pointing to the Apache server on the pool.
 
 > **Note:** Under this configuration all requests arriving at the Application Gateway with the path /app/* will be routed to the Apache server assigned to the backend pool at the app site (http://host/app)
 
